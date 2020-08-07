@@ -98,3 +98,12 @@ button {
 button:hover {
   background: rgb(37, 37, 37);
 }
+.backdrop-text {
+  font-weight: 900;
+  font-size: 15rem;
+  white-space: nowrap;
+  position: absolute;
+  bottom: -100px;
+  opacity: 0.5;
+  color: rgb(206, 206, 206);
+}

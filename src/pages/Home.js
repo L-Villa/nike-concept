@@ -29,6 +29,7 @@ export default function Home() {
             </div>
             <button>Shop Now</button>
           </div>
+          <div className="backdrop-text">Pegasus Turbo 2</div>
         </div>
       </section>
     </div>
