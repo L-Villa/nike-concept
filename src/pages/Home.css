@@ -7,7 +7,7 @@
 .black-side {
   position: absolute;
   left: 0;
-  width: 35%;
+  width: 30%;
   height: 100%;
   background: rgb(19, 19, 19);
 }
@@ -45,7 +45,6 @@
 }
 .circle-backdrop {
   position: absolute;
-  background: linear-gradient(200deg, rgb(204, 204, 204), rgb(36, 36, 36));
   width: 500px;
   height: 500px;
   top: 0;
@@ -55,6 +54,8 @@
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 1;
+  background: linear-gradient(200deg, rgb(238, 238, 238), rgb(36, 36, 36));
+  box-shadow: 0px 0px 40px rgba(49, 49, 49, 0.5);
 }
 
 .white-side {
@@ -65,9 +66,9 @@
 }
 .white-side-content-container {
   position: absolute;
-  right: 0;
+  left: 65%;
   top: 50%;
-  transform: translate(0, -50%);
+  transform: translate(-50%, -50%);
   width: 525px;
   z-index: 3;
 }
