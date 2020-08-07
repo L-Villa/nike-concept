@@ -11,13 +11,28 @@
   height: 100%;
   background: rgb(19, 19, 19);
 }
+.home-landing-social-links {
+  display: flex;
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0px;
+  margin: 30px 60px;
+}
+.home-landing-social-links > div {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.home-landing-social-links > div:hover {
+  opacity: 0.5;
+}
 .shoe-wrapper {
   position: absolute;
   height: 550px;
   width: 600px;
   top: 50%;
   left: 100%;
-  transform: translate(-50%, -50%) scale(1.3);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 .shoe-image {
   background: url("../images/pegasusTurbo2GrayRight.png");
@@ -40,4 +55,46 @@
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 1;
+}
+
+.white-side {
+  position: absolute;
+  right: 0;
+  width: 65%;
+  height: 100%;
+}
+.white-side-content-container {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 525px;
+  z-index: 3;
+}
+.white-side-text-container h2 {
+  font-size: 3.8rem;
+  font-weight: 900;
+  margin-bottom: 1.6rem;
+  line-height: 1;
+}
+.white-side-text-container p {
+  font-size: 1rem;
+  line-height: 1.7;
+  width: 75%;
+  color: rgb(110, 110, 110);
+}
+button {
+  background: black;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(37, 37, 37);
 }
