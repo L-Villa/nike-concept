@@ -1,11 +1,11 @@
 .header-content {
-  position: fixed;
-  /* position: absolute; */
+  position: absolute;
   width: 100%;
   height: 75px;
   display: flex;
   align-items: center;
   z-index: 5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
@@ -27,11 +27,41 @@ nav {
 
 .nav-links {
   display: flex;
+  align-items: center;
   margin: 0 50px;
 }
-.nav-links > div {
+.nav-links .nav-link {
   margin-left: 60px;
 }
 .nav-links:last-of-type {
   margin-right: 0;
+}
+
+.nav-icon {
+  margin: 0 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.nav-icon {
+  height: 20px;
+}
+.nav-icon:hover {
+  transform: scale(1.3);
+}
+.svg-container {
+  width: 75px;
+  height: 75px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  height: 30%;
+  fill: white !important;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+svg:hover {
+  transform: scale(1.3);
 }

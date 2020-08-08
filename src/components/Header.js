@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import search from "../images/icons/search.png";
+import shoppingCart from "../images/icons/shoppingCart.png";
 
 export default function Header() {
   return (
@@ -14,9 +16,26 @@ export default function Header() {
             <div className="nav-link">Girls</div>
           </div>
           <div className="nav-links nav-links-right">
-            <div className="nav-link">Cart</div>
-            <div className="nav-link">Search</div>
-            <div className="nav-link">Menu</div>
+            <img className="nav-icon" src={shoppingCart} alt="" />
+            <img className="nav-icon" src={search} alt="" />
+            <div className="svg-container">
+              <svg
+                id="Layer_1"
+                data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 50 50"
+              >
+                <rect width="10" height="10" />
+                <rect y="20" width="10" height="10" />
+                <rect x="20" width="10" height="10" />
+                <rect y="40" width="10" height="10" />
+                <rect x="20" y="20" width="10" height="10" />
+                <rect x="20" y="40" width="10" height="10" />
+                <rect x="40" width="10" height="10" />
+                <rect x="40" y="20" width="10" height="10" />
+                <rect x="40" y="40" width="10" height="10" />
+              </svg>
+            </div>
           </div>
         </nav>
       </section>
