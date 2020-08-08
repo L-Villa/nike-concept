@@ -28,11 +28,11 @@
 }
 .shoe-wrapper {
   position: absolute;
-  height: 650px;
-  width: 650px;
+  height: clamp(300px, 55vw, 1100px);
+  width: clamp(300px, 55vw, 1100px);
   top: 50%;
   left: 100%;
-  transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -50%);
 }
 .shoe-image {
   background: url("../images/pegasusTurbo2GrayRight.png");
@@ -45,10 +45,8 @@
 }
 .circle-backdrop {
   position: absolute;
-  width: 500px;
-  height: 500px;
-  top: 0;
-  left: 0;
+  width: 80%;
+  height: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -74,8 +72,8 @@
 }
 .white-side-text-container h2 {
   font-size: 3.8rem;
-  font-weight: 900;
-  margin-bottom: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
   line-height: 1;
 }
 .white-side-text-container p {
@@ -105,6 +103,7 @@ button:hover {
   white-space: nowrap;
   position: absolute;
   bottom: -100px;
-  opacity: 0.5;
+  opacity: 0.3;
   color: rgb(206, 206, 206);
+  text-transform: uppercase;
 }
