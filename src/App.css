@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --font-primary: 'Oswald', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+p {
+  font-family: var(--font-secondary);
+}
+
 body {
   background: rgb(233, 233, 233);
 }
