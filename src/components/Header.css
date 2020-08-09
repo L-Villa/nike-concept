@@ -22,29 +22,36 @@ nav {
   right: 0;
   display: flex;
   width: 70%;
+  height: 100%;
   justify-content: space-between;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  margin: 0 50px;
+  justify-content: space-between;
+  width: 325px;
+  margin-left: 40px;
   font-family: var(--font-primary);
+}
+.nav-link {
   cursor: pointer;
 }
-.nav-links .nav-link {
-  margin-left: 60px;
-}
-.nav-links:last-of-type {
-  margin-right: 0;
+.nav-link:hover {
+  opacity: 0.5;
 }
 
+.nav-icons {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-primary);
+  position: absolute;
+  right: 0;
+}
 .nav-icon {
   margin: 0 25px;
   cursor: pointer;
   transition: all 0.3s;
-}
-.nav-icon {
   height: 20px;
 }
 .nav-icon:hover {
@@ -66,4 +73,10 @@ svg {
 }
 svg:hover {
   transform: scale(1.3);
+}
+
+@media screen and (max-width: 850px) {
+  .nav-links {
+    display: none;
+  }
 }

@@ -15,7 +15,7 @@ export default function Header() {
             <div className="nav-link">Boys</div>
             <div className="nav-link">Girls</div>
           </div>
-          <div className="nav-links nav-links-right">
+          <div className="nav-icons">
             <img className="nav-icon" src={shoppingCart} alt="" />
             <img className="nav-icon" src={search} alt="" />
             <div className="svg-container">
