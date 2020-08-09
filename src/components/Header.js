@@ -94,7 +94,7 @@ export default function Header() {
                 <div className="dropdown-link-container">
                   <div className="col-2">
                     <div className="col">
-                      <div className="dropdown-link major-link">Shoes</div>
+                      <div className="dropdown-link major-link">SHOES</div>
                       <div className="dropdown-link minor-link">Lifestyle</div>
                       <div className="dropdown-link minor-link">Running</div>
                       <div className="dropdown-link minor-link">Basketball</div>
@@ -121,7 +121,7 @@ export default function Header() {
                       <div className="dropdown-link minor-link">All shoes</div>
                     </div>
                     <div className="col">
-                      <div className="dropdown-link major-link">Clothing</div>
+                      <div className="dropdown-link major-link">CLOTHING</div>
                       <div className="dropdown-link minor-link">
                         Tops & T-Shirts
                       </div>
@@ -217,7 +217,7 @@ export default function Header() {
                 <div className="dropdown-link-container">
                   <div className="col-2">
                     <div className="col">
-                      <div className="dropdown-link major-link">Shoes</div>
+                      <div className="dropdown-link major-link">SHOES</div>
                       <div className="dropdown-link minor-link">Lifestyle</div>
                       <div className="dropdown-link minor-link">Running</div>
                       <div className="dropdown-link minor-link">Basketball</div>
@@ -242,7 +242,7 @@ export default function Header() {
                       <div className="dropdown-link minor-link">All shoes</div>
                     </div>
                     <div className="col">
-                      <div className="dropdown-link major-link">Clothing</div>
+                      <div className="dropdown-link major-link">CLOTHING</div>
                       <div className="dropdown-link minor-link">
                         Pants & Leggings
                       </div>
@@ -316,15 +316,258 @@ export default function Header() {
             </div>
             <div class="dropdown">
               <div className="nav-link">Kids</div>
-              <div class="dropdown-content"></div>
+              <div class="dropdown-content">
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">NEW RELEASES</div>
+                  <div className="dropdown-link major-link">BEST SELLERS</div>
+                  <div className="dropdown-link major-link">
+                    BEST OF AIR MAX SHOES
+                  </div>
+                  <div className="dropdown-link major-link">
+                    EXPRESS YOUR STYLE
+                  </div>
+                  <div className="dropdown-link major-link">
+                    BAGS & BACKPACKS
+                  </div>
+                  <div className="dropdown-link major-link">
+                    GEAR UP FOR SPORT
+                  </div>
+                  <div className="dropdown-link major-link">
+                    FLORAL COLLECTION
+                  </div>
+                  <div className="dropdown-link major-link">
+                    LIGHTWEIGHT LAYERS
+                  </div>
+                  <div className="dropdown-link major-link">
+                    SALE - UP TO 40% OFF
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="col-2">
+                    <div className="col">
+                      <div className="dropdown-link major-link">BOYS SHOES</div>
+                      <div className="dropdown-link minor-link">
+                        Big Kids (3.5Y - 7Y)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Little Kids (10.5C - 3Y)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Baby & Toddler (0C - 10C)
+                      </div>
+                      <div className="dropdown-link minor-link">Lifestyle</div>
+                      <div className="dropdown-link minor-link">Running</div>
+                      <div className="dropdown-link minor-link">All shoes</div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">
+                        BOYS CLOTHING
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Big Kids (XS – XL)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Little Kids (4 – 7)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Baby & Toddler (0M – 4T)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Hoodies & Sweatshirts
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Pants & Tights
+                      </div>
+                      <div className="dropdown-link minor-link">Jackets</div>
+                      <div className="dropdown-link minor-link">
+                        Tops & T-Shirts
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Nike Pro & Compression
+                      </div>
+                      <div className="dropdown-link minor-link">Shorts</div>
+                      <div className="dropdown-link minor-link">
+                        All Clothing
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">
+                        GIRLS SHOES
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Big Kids (3.5Y - 7Y)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Little Kids (10.5C - 3Y)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Baby & Toddler (0C - 10C)
+                      </div>
+                      <div className="dropdown-link minor-link">Lifestyle</div>
+                      <div className="dropdown-link minor-link">Running</div>
+                      <div className="dropdown-link minor-link">All shoes</div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">
+                        GIRLS CLOTHING
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Big Kids (XS – XL)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Little Kids (4 – 7)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Baby & Toddler (0M – 4T)
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Hoodies & Sweatshirts
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Pants & Tights
+                      </div>
+                      <div className="dropdown-link minor-link">Jackets</div>
+                      <div className="dropdown-link minor-link">
+                        Tops & T-Shirts
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Sports Bras
+                      </div>
+                      <div className="dropdown-link minor-link">Shorts</div>
+                      <div className="dropdown-link minor-link">
+                        All Clothing
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">BABY & TODDLER</div>
+                  <div className="dropdown-link minor-link">Baby Girl</div>
+                  <div className="dropdown-link minor-link">Baby Boy</div>
+                  <div className="dropdown-link minor-link">SAll Shoes</div>
+                  <div className="dropdown-link minor-link">All Clothing</div>
+                  <div className="dropdown-link minor-link">Baby Box Sets</div>
+                  <div className="dropdown-link major-link">
+                    ACCESSORIES & EQUIPMENT
+                  </div>
+                  <div className="dropdown-link minor-link">
+                    Bags & Backpacks
+                  </div>
+                  <div className="dropdown-link minor-link">Socks</div>
+                  <div className="dropdown-link minor-link">
+                    Hats & Headwear
+                  </div>
+                  <div className="dropdown-link major-link">
+                    SHOP COLLECTION
+                  </div>
+                  <div className="dropdown-link minor-link">Rep Your City</div>
+                  <div className="dropdown-link minor-link">
+                    Nike Adventure Club
+                  </div>
+                  <div className="dropdown-link minor-link">
+                    Slides & Sandals
+                  </div>
+                  <div className="dropdown-link minor-link">
+                    Surf & Swimwear
+                  </div>
+                  <div className="dropdown-link minor-link">Jordan Kids</div>
+                  <div className="dropdown-link minor-link">Customize</div>
+                  <div className="dropdown-link minor-link">Fan Gear</div>
+                  <div className="dropdown-link minor-link">Nike FlyEase</div>
+                </div>
+              </div>
             </div>
             <div class="dropdown">
               <div className="nav-link">Customize</div>
-              <div class="dropdown-content"></div>
+              <div class="dropdown-content">
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">
+                    NIKE BY YOU NEW RELEASES
+                  </div>
+                  <div className="dropdown-link major-link">
+                    BASKETBALL BY YOU
+                  </div>
+                  <div className="dropdown-link major-link">BLAZER BY YOU</div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="col-2">
+                    <div className="col">
+                      <div className="dropdown-link major-link">MENS</div>
+                      <div className="dropdown-link minor-link">Lifestyle</div>
+                      <div className="dropdown-link minor-link">Running</div>
+                      <div className="dropdown-link minor-link">Basketball</div>
+                      <div className="dropdown-link minor-link">Jordan</div>
+                      <div className="dropdown-link minor-link">Football</div>
+                      <div className="dropdown-link minor-link">
+                        Training & Gym
+                      </div>
+                      <div className="dropdown-link minor-link">Soccer</div>
+                      <div className="dropdown-link minor-link">
+                        Track & Field
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Skateboarding
+                      </div>
+                      <div className="dropdown-link minor-link">Tennis</div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">WOMEN</div>
+                      <div className="dropdown-link minor-link">Lifestyle</div>
+                      <div className="dropdown-link minor-link">Running</div>
+                      <div className="dropdown-link minor-link">Basketball</div>
+                      <div className="dropdown-link minor-link">Jordan</div>
+                      <div className="dropdown-link minor-link">
+                        Training & Gym
+                      </div>
+                      <div className="dropdown-link minor-link">Soccer</div>
+                      <div className="dropdown-link minor-link">
+                        Track & Field
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Skateboarding
+                      </div>
+                      <div className="dropdown-link minor-link">Tennis</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">AIR MAX BY YOU</div>
+                </div>
+              </div>
             </div>
             <div class="dropdown">
               <div className="nav-link">Sale</div>
-              <div class="dropdown-content"></div>
+              <div class="dropdown-content">
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">
+                    ALL SALE - UP TO 40% OFF
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="col-2">
+                    <div className="col">
+                      <div className="dropdown-link major-link">MEN'S SALE</div>
+                      <div className="dropdown-link minor-link">Shoes</div>
+                      <div className="dropdown-link minor-link">Clothing</div>
+                      <div className="dropdown-link minor-link">Equipment</div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">
+                        WOMEN'S SALE
+                      </div>
+                      <div className="dropdown-link minor-link">Shoes</div>
+                      <div className="dropdown-link minor-link">Clothing</div>
+                      <div className="dropdown-link minor-link">Equipment</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">KID'S SALE</div>
+                  <div className="dropdown-link minor-link">Shoes</div>
+                  <div className="dropdown-link minor-link">Clothing</div>
+                  <div className="dropdown-link minor-link">Equipment</div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="nav-icons">
