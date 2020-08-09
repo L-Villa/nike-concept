@@ -38,6 +38,7 @@
   top: 50%;
   left: 100%;
   transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 .shoe-image {
   height: 100%;
@@ -46,7 +47,6 @@
   z-index: 2;
   pointer-events: none;
 }
-
 .circle-backdrop {
   position: absolute;
   width: 80%;
@@ -58,6 +58,7 @@
   z-index: 1;
   background: linear-gradient(200deg, rgb(238, 238, 238), rgb(36, 36, 36));
   box-shadow: 0px 0px 40px rgba(49, 49, 49, 0.5);
+  pointer-events: none;
 }
 
 .white-side {
@@ -77,14 +78,18 @@
 .white-side-text-container h2 {
   font-size: clamp(3.8rem, 5vw, 8rem);
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.7rem;
   line-height: 1;
 }
 .white-side-text-container p {
-  font-size: clamp(0.9rem, 2vw, 1.05rem);
+  font-size: clamp(0.9rem, 2vw, 1rem);
   line-height: 1.7;
-  width: 70%;
+  width: 80%;
   color: rgb(110, 110, 110);
+}
+.white-side-text-container p:first-of-type {
+  letter-spacing: 0.2rem;
+  color: rgb(0, 0, 0);
 }
 button {
   background: black;
@@ -125,7 +130,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.8rem 0.5rem;
+  margin: 1.5rem 0.5rem;
   padding: 0.3rem;
   height: 70px;
   width: 85px;
