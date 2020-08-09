@@ -29,6 +29,8 @@ nav {
   display: flex;
   align-items: center;
   margin: 0 50px;
+  font-family: var(--font-primary);
+  cursor: pointer;
 }
 .nav-links .nav-link {
   margin-left: 60px;
