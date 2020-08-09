@@ -156,7 +156,6 @@ export default function Header() {
                       <div className="dropdown-link minor-link">
                         Bags & Backpacks
                       </div>
-                      <div className="dropdown-link minor-link">Shorts</div>
                       <div className="dropdown-link minor-link">
                         Apple Watch Nike
                       </div>
@@ -170,7 +169,6 @@ export default function Header() {
                   <div className="dropdown-link major-link">
                     SHOP COLLECTION
                   </div>
-                  <div className="dropdown-link minor-link">Boys Shoes</div>
                   <div className="dropdown-link minor-link">Golf</div>
                   <div className="dropdown-link minor-link">Jordan</div>
                   <div className="dropdown-link minor-link">Soccer</div>
@@ -194,7 +192,127 @@ export default function Header() {
             </div>
             <div class="dropdown">
               <div className="nav-link">Women</div>
-              <div class="dropdown-content"></div>
+              <div class="dropdown-content">
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">NEW RELEASES</div>
+                  <div className="dropdown-link major-link">BEST SELLERS</div>
+                  <div className="dropdown-link major-link">
+                    BEST OF AIR MAX SHOES
+                  </div>
+                  <div className="dropdown-link major-link">
+                    EXPRESS YOUR STYLE
+                  </div>
+                  <div className="dropdown-link major-link">
+                    BAGS & BACKPACKS
+                  </div>
+                  <div className="dropdown-link major-link">
+                    GEAR UP FOR SPORT
+                  </div>
+                  <div className="dropdown-link major-link">NEW IN YOGA</div>
+                  <div className="dropdown-link major-link">ICON CLASH</div>
+                  <div className="dropdown-link major-link">
+                    SALE - UP TO 40% OFF
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="col-2">
+                    <div className="col">
+                      <div className="dropdown-link major-link">Shoes</div>
+                      <div className="dropdown-link minor-link">Lifestyle</div>
+                      <div className="dropdown-link minor-link">Running</div>
+                      <div className="dropdown-link minor-link">Basketball</div>
+                      <div className="dropdown-link minor-link">Jordan</div>
+                      <div className="dropdown-link minor-link">
+                        Training & Gym
+                      </div>
+                      <div className="dropdown-link minor-link">Soccer</div>
+                      <div className="dropdown-link minor-link">
+                        Track & Field
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Skateboarding
+                      </div>
+                      <div className="dropdown-link minor-link">Tennis</div>
+                      <div className="dropdown-link minor-link">
+                        Slides & Sandals
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Shoes $100 & Under
+                      </div>
+                      <div className="dropdown-link minor-link">All shoes</div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">Clothing</div>
+                      <div className="dropdown-link minor-link">
+                        Pants & Leggings
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Sports Bras
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Tops & T-Shirts
+                      </div>
+                      <div className="dropdown-link minor-link">Shorts</div>
+                      <div className="dropdown-link minor-link">
+                        Hoodies & Sweatshirts
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Jackets & Vests
+                      </div>
+                      <div className="dropdown-link minor-link">Swimwear</div>
+                      <div className="dropdown-link minor-link">
+                        Nike Pro & Baselayer
+                      </div>
+                      <div className="dropdown-link minor-link">Plus Size</div>
+                      <div className="dropdown-link minor-link">
+                        Skirts & Dresses
+                      </div>
+                      <div className="dropdown-link minor-link">Yoga</div>
+                      <div className="dropdown-link minor-link">Socks</div>
+                      <div className="dropdown-link minor-link">
+                        All Clothing
+                      </div>
+                    </div>
+                    <div className="col">
+                      <div className="dropdown-link major-link">
+                        ACCESSORIES & EQUIPMENT
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Bags & Backpacks
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Apple Watch Nike
+                      </div>
+                      <div className="dropdown-link minor-link">
+                        Hats, Visors & Headbands
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="dropdown-link-container">
+                  <div className="dropdown-link major-link">
+                    SHOP COLLECTION
+                  </div>
+                  <div className="dropdown-link minor-link">Golf</div>
+                  <div className="dropdown-link minor-link">Jordan</div>
+                  <div className="dropdown-link minor-link">Soccer</div>
+                  <div className="dropdown-link minor-link">Running</div>
+                  <div className="dropdown-link minor-link">Basketball</div>
+                  <div className="dropdown-link minor-link">Tennis</div>
+                  <div className="dropdown-link minor-link">NikeLab</div>
+                  <div className="dropdown-link minor-link">Training & Gym</div>
+                  <div className="dropdown-link minor-link">Football</div>
+                  <div className="dropdown-link minor-link">Baseball</div>
+                  <div className="dropdown-link minor-link">
+                    Nike Sportswear
+                  </div>
+                  <div className="dropdown-link minor-link">ACG</div>
+                  <div className="dropdown-link minor-link">Skateboarding</div>
+                  <div className="dropdown-link minor-link">Lacrosse</div>
+                  <div className="dropdown-link minor-link">Fan Gear</div>
+                  <div className="dropdown-link minor-link">Nike FlyEase</div>
+                </div>
+              </div>
             </div>
             <div class="dropdown">
               <div className="nav-link">Kids</div>
