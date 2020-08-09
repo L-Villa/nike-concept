@@ -40,13 +40,11 @@
   transform: translate(-50%, -50%);
 }
 .shoe-image {
-  /* background: url("../images/pegasusTurbo2GrayRight.png"); */
-  /* background-size: cover; */
   height: 100%;
   width: 100%;
-  transform: rotate(30deg);
   filter: drop-shadow(-25px 35px 20px #131313);
   z-index: 2;
+  pointer-events: none;
 }
 .circle-backdrop {
   position: absolute;

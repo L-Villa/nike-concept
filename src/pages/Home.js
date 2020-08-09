@@ -1,15 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import shoeRight from "../images/pegasusTurbo2GrayRight.png";
+import shoeRight2 from "../images/shoeRight.png";
+import shoeBack from "../images/shoeBack.png";
+import shoeIso from "../images/shoeIso.png";
 
 export default function Home() {
+  const shoeImages = [shoeRight2, shoeBack, shoeIso];
+  const [currentImage, setCurrentImage] = useState(shoeImages[0]);
+  const [count, setCount] = useState(0);
+
+  const handleLeftArrow = () => {
+    let countTracker;
+    if (count >= 1) {
+      countTracker = count - 1;
+      setCount(countTracker);
+      setCurrentImage(shoeImages[countTracker]);
+    } else {
+      countTracker = 0;
+      setCount(countTracker);
+    }
+  };
+  const handleRightArrow = () => {
+    let countTracker;
+    if (count <= 1) {
+      countTracker = count + 1;
+      setCount(countTracker);
+      setCurrentImage(shoeImages[countTracker]);
+    } else {
+      countTracker = 2;
+      setCount(countTracker);
+    }
+  };
+  const handleImageClick = (index) => {
+    setCount(index);
+    setCurrentImage(shoeImages[index]);
+  };
+
   return (
     <div>
       <section className="home-landing">
         <div className="black-side">
           <div className="shoe-wrapper">
-            {/* <div className="shoe-image"></div> */}
-            <img className="shoe-image" src={shoeRight} alt="" />
+            <img className="shoe-image" src={currentImage} alt="" />
             <div className="circle-backdrop"></div>
           </div>
           <div className="home-landing-social-links">
@@ -31,11 +64,19 @@ export default function Home() {
             </div>
             <button>Shop Now</button>
             <div className="shoe-image-container">
-              <img className="shoe-images" src={shoeRight} alt="" />
-              <img className="shoe-images" src={shoeRight} alt="" />
-              <img className="shoe-images" src={shoeRight} alt="" />
-              <div className="left-arrow">&larr;</div>
-              <div className="left-arrow">&rarr;</div>
+              {shoeImages.map((image, index) => {
+                return (
+                  <img
+                    onClick={() => handleImageClick(index)}
+                    key={index}
+                    className="shoe-images"
+                    src={image}
+                    alt="Shoe View"
+                  />
+                );
+              })}
+              <div onClick={handleLeftArrow}>&larr;</div>
+              <div onClick={handleRightArrow}>&rarr;</div>
             </div>
           </div>
           <div className="backdrop-text">Pegasus Turbo 2</div>
