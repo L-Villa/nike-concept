@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "./Home.css";
-import shoeRight from "../images/pegasusTurbo2GrayRight.png";
-import shoeRight2 from "../images/shoeRight.png";
+import shoeRight from "../images/shoeRight.png";
 import shoeBack from "../images/shoeBack.png";
 import shoeIso from "../images/shoeIso.png";
 
 export default function Home() {
-  const shoeImages = [shoeRight2, shoeBack, shoeIso];
+  const shoeImages = [shoeRight, shoeBack, shoeIso];
   const [currentImage, setCurrentImage] = useState(shoeImages[0]);
   const [count, setCount] = useState(0);
 
