@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import shoeRight from "../images/pegasusTurbo2GrayRight.png";
 
 export default function Home() {
   return (
@@ -7,7 +8,8 @@ export default function Home() {
       <section className="home-landing">
         <div className="black-side">
           <div className="shoe-wrapper">
-            <div className="shoe-image"></div>
+            {/* <div className="shoe-image"></div> */}
+            <img className="shoe-image" src={shoeRight} alt="" />
             <div className="circle-backdrop"></div>
           </div>
           <div className="home-landing-social-links">
@@ -28,6 +30,13 @@ export default function Home() {
               </p>
             </div>
             <button>Shop Now</button>
+            <div className="shoe-image-container">
+              <img className="shoe-images" src={shoeRight} alt="" />
+              <img className="shoe-images" src={shoeRight} alt="" />
+              <img className="shoe-images" src={shoeRight} alt="" />
+              <div className="left-arrow">&larr;</div>
+              <div className="left-arrow">&rarr;</div>
+            </div>
           </div>
           <div className="backdrop-text">Pegasus Turbo 2</div>
         </div>
