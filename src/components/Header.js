@@ -13,7 +13,14 @@ export default function Header() {
             <div className="nav-link">Men</div>
             <div className="nav-link">Women</div>
             <div className="nav-link">Boys</div>
-            <div className="nav-link">Girls</div>
+            <div class="dropdown">
+              <div className="nav-link">Girls</div>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
           </div>
           <div className="nav-icons">
             <img className="nav-icon" src={shoppingCart} alt="" />
