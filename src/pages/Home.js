@@ -5,7 +5,7 @@ import shoeBack from "../images/shoeBack.png";
 import shoeIso from "../images/shoeIso.png";
 
 export default function Home() {
-  const shoeImages = [shoeRight, shoeBack, shoeIso];
+  const shoeImages = [shoeRight, shoeBack, shoeIso, shoeBack];
   const [currentImage, setCurrentImage] = useState(shoeImages[0]);
   const [count, setCount] = useState(0);
 
@@ -22,12 +22,12 @@ export default function Home() {
   };
   const handleRightArrow = () => {
     let countTracker;
-    if (count <= 1) {
+    if (count <= shoeImages.length - 2) {
       countTracker = count + 1;
       setCount(countTracker);
       setCurrentImage(shoeImages[countTracker]);
     } else {
-      countTracker = 2;
+      countTracker = shoeImages.length - 1;
       setCount(countTracker);
     }
   };
