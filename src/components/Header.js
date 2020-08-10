@@ -571,15 +571,15 @@ export default function Header() {
           </div>
           <div className="nav-icons">
             <img className="nav-icon" src={shoppingCart} alt="" />
-            <div class="container">
-              <div class="searchbox">
+            <div className="container">
+              <div className="searchbox">
                 <input
                   type="text"
-                  class="searchbox__input"
+                  className="searchbox__input"
                   placeholder="Search"
                 />
                 <svg
-                  class="searchbox__icon"
+                  className="searchbox__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 56.966 56.966"
                 >
