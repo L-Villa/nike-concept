@@ -150,6 +150,70 @@ svg:hover {
   width: 160px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .searchbox {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 40px;
+  transition: 0.4s linear;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.container .searchbox .searchbox__input {
+  display: block;
+  appearance: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px;
+  color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s linear;
+  height: 40px;
+}
+.container .searchbox .searchbox__input::placeholder {
+  color: rgba(0, 0, 0, 0);
+}
+.container .searchbox .searchbox__input:focus {
+  color: black;
+}
+.container .searchbox .searchbox__input:focus::placeholder {
+  color: #5e5e5e;
+}
+.container .searchbox .searchbox__icon {
+  position: absolute;
+  right: calc(40px / 2);
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.container .searchbox .searchbox__icon path {
+  fill: #000000;
+  transition: 0.4s linear;
+}
+.container .searchbox:focus-within {
+  max-width: 175px;
+}
+.container .searchbox:focus-within .searchbox__input {
+  background-color: #FFF;
+  padding-right: 50px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.container .searchbox:focus-within .searchbox__icon path {
+  fill: #969696;
+}
+
+
 @media screen and (max-width: 1150px) {
   .nav-links {
     display: none;
