@@ -21,7 +21,7 @@
   font-size: 0.8rem;
   position: absolute;
   bottom: 0px;
-  margin: 30px 40px;
+  margin: 25px 40px;
 }
 .home-landing-social-links > div {
   cursor: pointer;
@@ -29,6 +29,15 @@
 .home-landing-social-links > div:hover {
   opacity: 0.5;
 }
+.scroll-indicator {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: white;
+  font-size: 3.5rem;
+  font-size: clamp(2.5rem, 3vw, 3.5rem);
+}
+
 .shoe-wrapper {
   position: absolute;
   height: clamp(200px, 55vw, 1100px);
@@ -145,14 +154,6 @@ button:hover {
 .shoe-image-container > img {
   background: linear-gradient(200deg, rgb(216, 216, 216), rgb(173, 173, 173));
   border-radius: 10px;
-}
-
-.scroll-indicator {
-  position: absolute;
-  right: 30px;
-  bottom: 20px;
-  color: white;
-  font-size: 3.5rem;
 }
 
 @media screen and (max-width: 975px) {
