@@ -219,4 +219,15 @@ svg:hover {
     display: none;
   }
 }
+@media screen and (max-width: 500px) {
+  .header-logo {
+    margin: 0 20px;
+    height: 15px;
+    width: 40px;
+  }
+  nav {
+    width: 80%;
+  }
+}
+
 
