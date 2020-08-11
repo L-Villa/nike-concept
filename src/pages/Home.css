@@ -147,7 +147,7 @@ button:hover {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 975px) {
   .black-side {
     bottom: 0;
     width: 100%;
