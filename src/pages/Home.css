@@ -147,6 +147,14 @@ button:hover {
   border-radius: 10px;
 }
 
+.scroll-indicator {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: white;
+  font-size: 3.5rem;
+}
+
 @media screen and (max-width: 975px) {
   .black-side {
     bottom: 0;

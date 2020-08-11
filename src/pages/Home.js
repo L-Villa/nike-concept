@@ -49,6 +49,7 @@ export default function Home() {
             <div className="social-link">TWI</div>
             <div className="social-link">INS</div>
           </div>
+          <div className="scroll-indicator">&darr;</div>
         </div>
         <div className="white-side">
           <div className="white-side-content-container">
