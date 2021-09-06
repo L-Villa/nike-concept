@@ -99,7 +99,7 @@ svg:hover {
 
 .dropdown-content {
   display: none;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
   top: 100%;
   left: 0;
