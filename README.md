@@ -8,6 +8,8 @@ Visit my [personal website](https://luisvilla.xyz).
 
 ### Landing Page
 
+A minimal landing page that puts the visitor's focus on the selected shoe.
+
 ![Home Page Screenshot](./src/images/home.png)
 
 ## Setup
