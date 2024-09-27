@@ -1,8 +1,8 @@
 # Nike Landing Page Concept
 
-This is a concept design for Nike's online store. The goal of this project was to begin learning ReactJS while turning a design file into an actual website. This project has a [demo](https://luisvilla.xyz/projects/nike/demo) on my personal website.
+This is a concept design for Nike's online store. The goal of this project was to begin learning ReactJS while turning a design file into an actual website. This project has a [demo](https://nike.luis-villa.com) on my personal website.
 
-Visit my [personal website](https://luisvilla.xyz) if you'd like to see more of my projects.
+Visit my [personal website](https://luis-villa.com) if you'd like to see more of my projects.
 
 ## Site
 
